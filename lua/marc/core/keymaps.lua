@@ -6,7 +6,8 @@ local keymap = vim.keymap -- for conciseness
 ---------------------
 -- General Keymaps
 ---------------------
-
+-- use uu to escape move right and append
+keymap.set("i", "uu", "<ESC>la")
 -- use jk to exit insert mode
 keymap.set("i", "jj", "<ESC>")
 
