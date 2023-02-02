@@ -1,6 +1,8 @@
 local opt = vim.opt -- for conciseness
 -- stop autocomment
-
+--search
+opt.hlsearch = false
+opt.incsearch = true
 -- fat cursor
 opt.guicursor = ""
 
