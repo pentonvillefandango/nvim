@@ -6,6 +6,10 @@ local keymap = vim.keymap -- for conciseness
 ---------------------
 -- General Keymaps
 ---------------------
+-- Page up and down but centre the cursor
+keymap.set("n", "<C-u>", "<C-u>zz")
+keymap.set("n", "<C-d>", "<C-d>zz")
+
 -- use uu to escape move right and append
 keymap.set("i", "uu", "<ESC>la")
 -- use jk to exit insert mode
