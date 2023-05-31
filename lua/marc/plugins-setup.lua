@@ -103,7 +103,7 @@ return packer.startup(function(use)
 	-- better git integration
 
 	-- primeagen recommened
-
+	use("theprimeagen/vim-be-good")
 	use("theprimeagen/harpoon")
 	use("tpope/vim-fugitive")
 	if packer_bootstrap then

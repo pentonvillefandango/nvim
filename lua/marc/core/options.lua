@@ -31,7 +31,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 --cursor line
-cursorline = true
+opt.cursorline = true
 
 -- appearance
 opt.termguicolors = true
